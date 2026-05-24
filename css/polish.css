@@ -294,7 +294,7 @@ p,
 
 .hero__visual-inner.image-media {
   background:
-    linear-gradient(90deg, rgba(6, 6, 7, 0.72) 0%, rgba(6, 6, 7, 0.32) 34%, rgba(6, 6, 7, 0.1) 68%),
+    linear-gradient(90deg, rgba(6, 6, 7, 0.32) 0%, rgba(6, 6, 7, 0.16) 38%, rgba(6, 6, 7, 0.06) 70%),
     var(--media-image);
   background-size: cover;
   background-position: center;
