@@ -1,0 +1,134 @@
+/* ═══════════════════════════════════════════════════════
+   ARCFORM — Design Tokens
+   Premium Construction Company UI/UX 2026
+   ═══════════════════════════════════════════════════════ */
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300&family=DM+Mono:wght@400;500&display=swap');
+
+:root {
+  /* ─── COLOR PALETTE ─── */
+
+  /* Backgrounds */
+  --color-bg-primary:      #0a0a0b;  /* Near black — main bg */
+  --color-bg-dark:         #060607;  /* Darkest layer */
+  --color-bg-secondary:    #111113;  /* Sections bg */
+  --color-bg-surface:      #18181b;  /* Cards, panels */
+  --color-bg-surface-2:    #1f1f23;  /* Elevated cards */
+  --color-bg-hover:        #212126;  /* Hover state */
+
+  /* Borders */
+  --color-border-subtle:   #1e1e22;  /* Hairline dividers */
+  --color-border-default:  #2a2a2e;  /* Default borders */
+  --color-border-strong:   #363639;  /* Emphasized borders */
+  --color-border-focus:    #8fb5c8;  /* Focus ring */
+
+  /* Text */
+  --color-text-primary:    #f4f2ee;  /* Warm off-white — main */
+  --color-text-secondary:  #a8a8b3;  /* Muted body text */
+  --color-text-muted:      #7a7a82;  /* Placeholders, hints */
+  --color-text-faint:      #4f4f55;  /* Decorative labels */
+  --color-text-inverse:    #0a0a0b;  /* Text on light bg */
+
+  /* Brand Accent */
+  --color-steel:           #8fb5c8;  /* Steel blue — primary accent */
+  --color-steel-dim:       rgba(143, 181, 200, 0.12);
+  --color-steel-glow:      rgba(143, 181, 200, 0.06);
+  --color-sand:            #c4b99a;  /* Warm sand — secondary accent */
+  --color-sand-dim:        rgba(196, 185, 154, 0.10);
+  --color-off-white:       #f4f2ee;  /* Primary CTA color */
+  --color-orange:          #e07230;  /* Safety orange — use sparingly */
+
+  /* Status */
+  --color-success:         #49a56f;
+  --color-success-dim:     rgba(73, 165, 111, 0.10);
+  --color-warning:         #e8b432;
+  --color-warning-dim:     rgba(232, 180, 50, 0.10);
+  --color-error:           #d1493f;
+  --color-error-dim:       rgba(209, 73, 63, 0.10);
+
+  /* ─── TYPOGRAPHY ─── */
+  --font-display:  'Bebas Neue', sans-serif;
+  --font-body:     'DM Sans', sans-serif;
+  --font-mono:     'DM Mono', monospace;
+
+  /* Font Sizes */
+  --text-display-xl: clamp(72px, 9vw, 128px);
+  --text-display-l:  clamp(48px, 6vw, 88px);
+  --text-h1:         clamp(40px, 5vw, 64px);
+  --text-h2:         clamp(32px, 4vw, 48px);
+  --text-h3:         28px;
+  --text-h4:         20px;
+  --text-body-lg:    18px;
+  --text-body:       16px;
+  --text-body-sm:    14px;
+  --text-caption:    12px;
+  --text-label:      11px;
+  --text-micro:      10px;
+
+  /* Line Heights */
+  --lh-display: 0.92;
+  --lh-heading: 1.05;
+  --lh-body:    1.65;
+  --lh-relaxed: 1.75;
+
+  /* Letter Spacing */
+  --ls-display:  -2px;
+  --ls-heading:  -0.5px;
+  --ls-label:    1.5px;
+  --ls-mono:     1px;
+
+  /* ─── SPACING SCALE ─── */
+  --space-1:   4px;
+  --space-2:   8px;
+  --space-3:   12px;
+  --space-4:   16px;
+  --space-5:   24px;
+  --space-6:   32px;
+  --space-7:   40px;
+  --space-8:   48px;
+  --space-9:   64px;
+  --space-10:  80px;
+  --space-11:  96px;
+  --space-12:  120px;
+  --space-13:  160px;
+
+  /* ─── LAYOUT ─── */
+  --container-max:   1440px;
+  --container-pad:   64px;
+  --header-height:   72px;
+  --grid-cols:       12;
+  --grid-gap:        24px;
+
+  /* ─── EFFECTS ─── */
+  --radius-sm:   2px;
+  --radius-md:   4px;
+  --radius-lg:   8px;
+  --radius-full: 9999px;
+
+  --shadow-card:     0 1px 3px rgba(0,0,0,.5), 0 4px 12px rgba(0,0,0,.3);
+  --shadow-elevated: 0 2px 8px rgba(0,0,0,.6), 0 12px 32px rgba(0,0,0,.4);
+  --shadow-float:    0 8px 32px rgba(0,0,0,.7), 0 2px 8px rgba(0,0,0,.5);
+
+  --blur-glass:  blur(20px);
+  --blur-subtle: blur(8px);
+
+  /* ─── TRANSITIONS ─── */
+  --transition-fast:   0.15s ease;
+  --transition-base:   0.25s ease;
+  --transition-slow:   0.4s ease;
+  --transition-spring: 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+/* ─── RESPONSIVE TOKEN OVERRIDES ─── */
+@media (max-width: 1024px) {
+  :root {
+    --container-pad: 32px;
+  }
+}
+@media (max-width: 768px) {
+  :root {
+    --container-pad: 20px;
+    --space-12: 80px;
+    --space-13: 100px;
+  }
+}
