@@ -27,6 +27,7 @@
   --color-text-secondary:  #a8a8b3;  /* Muted body text */
   --color-text-muted:      #7a7a82;  /* Placeholders, hints */
   --color-text-faint:      #4f4f55;  /* Decorative labels */
+  --color-text-outline:    #606067;  /* Hollow display headlines */
   --color-text-inverse:    #0a0a0b;  /* Text on light bg */
 
   /* Brand Accent */

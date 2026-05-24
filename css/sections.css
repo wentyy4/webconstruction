@@ -76,7 +76,7 @@
 .hero__title em {
   font-style: normal;
   color: transparent;
-  -webkit-text-stroke: 1px var(--color-border-strong);
+  -webkit-text-stroke: 1px var(--color-text-outline);
 }
 
 .hero__sub {
@@ -365,7 +365,7 @@
 .whyus-left .big-headline em {
   font-style: normal;
   color: transparent;
-  -webkit-text-stroke: 1px var(--color-border-strong);
+  -webkit-text-stroke: 1px var(--color-text-outline);
 }
 
 .whyus-left p {
